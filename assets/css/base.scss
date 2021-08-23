@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+    --primary-color:#1A94FF;
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    box-sizing:border-box;
+}
+
+.grid{
+    width:1240px;
+    max-width:100%;
+    margin:0 auto;
+}
+.grid__full-width{
+    width: 100%;
+
+}
+.grid_row{
+    display: flex;
+    flex-wrap: wrap;
+}
+@keyframes hOKweE {
+    from{
+        opacity: 0.3;
+    } to{
+        transform: scale(1.3);
+    }    
+
+                
+}
